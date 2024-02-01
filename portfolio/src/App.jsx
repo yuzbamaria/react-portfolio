@@ -3,14 +3,14 @@ import * as bootstrap from 'bootstrap';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css'
 import ProjectsGallery from "./pages/ProjectsGallery";
-import NavBar from './components/NavBar';
+import Navbar from './components/Navbar';
 import Home from "./pages/Home";
 
 
 function App() {
 
   return <Router> 
-    <NavBar />
+    <Navbar />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/projects-gallery" element={<ProjectsGallery />} />
