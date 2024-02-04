@@ -1,6 +1,11 @@
-function Home() {
+import React from "react";
+import HomeData from '../components/Home/HomeData';
 
-    return <div>This is Home page</div>
+function Home() {
+    return ( 
+        <HomeData />
+);
 }
 
 export default Home;
+
