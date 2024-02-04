@@ -1,7 +1,4 @@
 import React from "react";
-// import Container from '../Container';
-// import Row from '../Row';
-import Col from '../Col';
 import Btn from '../Btn';
 import YourImage from '../../assets/images/my_photo_circle.png';
 
@@ -23,10 +20,10 @@ function HomeData() {
                 <p>
                  Results-driven Fron-End developer with over 7 years of experience 
                  in business development within the IT industry. 
-                          Proven ability to thrive in dynamic environments, contributing to 
-                          agile teams with a collaborative mindset. Known for effective communication and problem-solving 
-                          skills, with a commitment to delivering high-quality results within 
-                          project timelines. 
+                 Proven ability to thrive in dynamic environments, contributing to 
+                 agile teams with a collaborative mindset. Known for effective communication and problem-solving 
+                 skills, with a commitment to delivering high-quality results within 
+                 project timelines. 
                 </p>
                 <Btn />
               </div>

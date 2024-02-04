@@ -20,22 +20,9 @@ function App() {
         <Navbar />
         <Wrapper>
           <Routes>
-            <Route 
-            path="/"
-            element={
-              <>
-                {/* Components for the home page */}
-                <Home />
-                <About />
-                <ProjectsGallery />
-                <Contacts />
-                <Footer />
-              </>
-            }
-            />
+            <Route path="/" element={ <Home />} />
           </Routes>
         </Wrapper>
-
         <Footer />
       </div>
   </Router>
