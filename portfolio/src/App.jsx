@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css'
 import ProjectsGallery from "./pages/ProjectsGallery";
 import Home from "./pages/Home";
-import About from './pages/About';
+// import About from './pages/About';
 import Contacts from './pages/Contacts';
 import Navbar from './components/Navbar';
 import Wrapper from './components/Wrapper';
@@ -20,7 +20,8 @@ function App() {
         <Navbar />
         <Wrapper>
           <Routes>
-            <Route path="/" element={ <Home />} />
+            <Route path="/" element={ <Home /> } />
+            <Route path="projects" element={  <ProjectsGallery /> } />
           </Routes>
         </Wrapper>
         <Footer />

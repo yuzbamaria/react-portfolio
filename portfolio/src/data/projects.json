@@ -1,50 +1,50 @@
 [
     {
         "id": 1,
-        "title": "",
-        "description": "",
-        "image": "",
-        "link": "",
-        "github": ""
+        "title": "Team profile generator",
+        "description": "The application prompts the user for command-line input about employees (such as managers, engineers, and interns), and based on that input, it generates an HTML webpage.",
+        "image": "assets/images/team_profile_generator.png", 
+        "deployed": "https://github.com/yuzbamaria/team_profile_generator",
+        "github": "https://github.com/yuzbamaria/team_profile_generator"
     },
-    {
+    { 
         "id": 2,
-        "title": "",
-        "description": "",
-        "image": "",
-        "link": "",
-        "github": ""
+        "title": "Code quiz",
+        "description": "A timed coding quiz app with multiple-choice questions.",
+        "image": "assets/images/code_quiz.png",
+        "deployed": "https://yuzbamaria.github.io/Code_Quiz/",
+        "github": "https://github.com/yuzbamaria/Code_Quiz"
     },
     {
         "id": 3,
-        "title": "",
-        "description": "",
-        "image": "",
-        "link": "",
-        "github": ""
+        "title": "Weather Dashboard",
+        "description": "Weather Dashboard app that allows a user to stay up to date with the weather forecast in a chosen location",
+        "image": "assets/images/weather_dashboard.png",
+        "deployed": "https://yuzbamaria.github.io/Weather_Dashboard/",
+        "github": "https://github.com/yuzbamaria/Weather_Dashboard"
     },
     {
         "id": 4,
-        "title": "",
-        "description": "",
-        "image": "",
-        "link": "",
-        "github": ""
+        "title": "Job Search tracker",
+        "description": "An app that helps a user keep track of the job search.",
+        "image": "assets/images/job_search_tracker.png",
+        "deployed": "https://github.com/yuzbamaria/job_search_tracker",
+        "github": "https://yuzbamaria.github.io/job_search_tracker"
     },
     {
         "id": 5,
-        "title": "",
-        "description": "",
-        "image": "",
-        "link": "",
-        "github": ""
+        "title": "Password Generator",
+        "description": "An app that generates a random password based on criteria a user selects.",
+        "image": "assets/images/password_generator.png",
+        "deployed": "https://yuzbamaria.github.io/Password_Generator/",
+        "github": "https://github.com/yuzbamaria/Password_Generator"
     },
     {
         "id": 6,
-        "title": "",
-        "description": "",
-        "image": "",
-        "link": "",
-        "github": ""
+        "title": "README.md Generator",
+        "description": "A Node.js command-line app to generate README.md.",
+        "image": "assets/images/readme_generator.png",
+        "deployed": "",
+        "github": "https://github.com/yuzbamaria/readme_generator"
     }
 ]
