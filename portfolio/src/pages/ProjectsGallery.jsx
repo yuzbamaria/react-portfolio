@@ -3,12 +3,13 @@ import projects from '../data/projects.json';
 
 function ProjectsGallery() {
     return <div>
-        This is the list of my projects
-        <div>
-            { projects.map((project) => {
-                return <Project key={project.id} title={project.title} description={project.description} />            
-            })}
-          
+        <div className="background min-vh-100 pb-5">
+            <h5  className="p-5 mb-3">This is the list of my projects</h5>
+            <div className="flex-wrap d-flex m-4 p-4">
+             { projects.map((project) => {
+                return <Project key={project.id} title={project.title} image={project.image} description={project.description} deployed={project.deployed} github={project.github}/>            
+             })}
+            </div>
         </div>
     </div>
 }
