@@ -8,6 +8,9 @@ function Project(props) {
                 src={props.image}
                 alt={props.title}
                 />
+                <p className="tools">
+                    {props.tools}
+                </p>
             <div className="custom-card-footer">
                 <p>
                     <button className='btn btn-color shadow' onClick={() => window.open(props.deployed, '_blank')}>
