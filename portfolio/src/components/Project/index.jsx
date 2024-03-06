@@ -1,6 +1,9 @@
+import "./style.css";
+
+
 function Project(props) {
     return <div>
-          <div className='card align-items-center shadow'>
+          <div className='card shadow m-3'>
             <div className='card-body text-center'>
               <h2 className="card-title">{ props.title }</h2>
               <p>{ props.description }</p>
