@@ -1,6 +1,9 @@
+import "./style.css";
+
+
 function Project(props) {
     return <div>
-          <div className='card align-items-center shadow'>
+          <div className='card shadow m-3'>
             <div className='card-body text-center'>
               <h2 className="card-title">{ props.title }</h2>
               <p>{ props.description }</p>
@@ -8,6 +11,9 @@ function Project(props) {
                 src={props.image}
                 alt={props.title}
                 />
+                <p className="tools">
+                    {props.tools}
+                </p>
             <div className="custom-card-footer">
                 <p>
                     <button className='btn btn-color shadow' onClick={() => window.open(props.deployed, '_blank')}>

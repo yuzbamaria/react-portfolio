@@ -1,0 +1,5 @@
+@media (min-width: 992px) { /* lg screens */
+    .card {
+      max-width: 800px; /* Set the maximum width of the cards for lg screens */
+    }
+  }
